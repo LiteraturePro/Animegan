@@ -1,37 +1,32 @@
-# MODNet
-Docker version API for MODNet-model Human Matting
+# AnimeGANv2
+Docker version API for AnimeGANv2
 
-- Original address of the project[MODNet](https://github.com/ZHKKKe/MODNet)
-- The project used by this version[MODNet Onnx](https://github.com/manthan3C273/MODNet/)
+- Original address of the project[AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2)
+- The project used by this version[Animegan2-Pytorch](https://github.com/bryandlee/animegan2-pytorch)
 
 
 ### Explain
-MODNet-model Human Matting(Look at the picture)
+AnimeGANv2(Look at the picture)
 
-![](https://pcdn.wxiou.cn/20210221141938.png)
-
-
-> This project is to package the matting program implemented by modnet algorithm as docker image to provide API calling service. If you don't know modnet, please read the original author's warehouse first. What I'm going to talk about is to use docker to build modnet as an API for calling. Of course, you can also directly run the `app.py` in the form of flash. Docker is used to avoid configuration environment errors.
-> Modnet can run on GPU or CPU. This project can use GPU or CPU.
-
-
-
+<img src="https://pcdn.wxiou.cn/20210222172914.jpg" width="960"> &nbsp; 
+<img src="https://pcdn.wxiou.cn/20210222172934.jpg" width="960"> &nbsp; 
+<img src="https://pcdn.wxiou.cn/20210222172953.jpg" width="960"> &nbsp; 
 
 ## Compiled project on [hub.docker.com](https://hub.docker.com/)
 
-- [Normal version](https://hub.docker.com/layers/literature/modnet-matting/latest/images/sha256-65e14b60a5c155eec1d3607806456d5a269a169f7c4fdd5c760846fc0b0c3eb4?context=repo)
-- [Heroku version](https://hub.docker.com/layers/literature/modnet-matting/heroku/images/sha256-c3465a45ed6655969851f5e7fb5438c7837063b6143164672fded4cbf1a0e4f2?context=repo)
+- [Normal version](https://hub.docker.com/layers/138465383/literature/animegan/latest/images/sha256-719f95bce16bab24b41df6dcfd29700d4ee775b8f2c80f87b758cffa93a41ab0?context=explore)
+- [Heroku version](https://hub.docker.com/layers/literature/animegan/heroku/images/sha256-ca41a80123f93de22392ba1465e624206ef01e7c41ab7176ca00ab789e6a68b1?context=explore)
 
 ## Build
 > Make sure you have `docker` installed
-1. Clone the MODNet repository:
+1. Clone the Animegan repository:
     ```
-    git clone https://github.com/ZHKKKe/MODNet.git
-    cd MODNet
+    git clone https://github.com/LiteraturePro/Animegan.git
+    cd Animegan
     ```
 2. Input command to build image：
     ```
-    docker build -t mod-matting .
+    docker build -t animegan .
     ```
     - I also provided the compilation command for `Heroku`, just replace the last command of dockerfile file with each other,
     - For general
@@ -44,7 +39,7 @@ MODNet-model Human Matting(Look at the picture)
     ```
 3. Running image (You can specify the running port yourself)：
     ```
-    docker run -p 8080:8080 mod-matting
+    docker run -p 8080:8080 animegan
     ```
 ## Install
 > Make sure you have `docker` installed
@@ -52,13 +47,13 @@ MODNet-model Human Matting(Look at the picture)
 I have built the image and can install it directly. The installation command is as follows(You can specify the running port yourself)：
 - For general
     ```
-    docker pull literature/modnet-matting:latest
-    docker run -p 8080:8080 literature/modnet-matting:latest
+    docker pull literature/animegan:latest
+    docker run -p 8080:8080 literature/animegan:latest
     ```
 - For heroku
     ```
-    docker pull literature/modnet-matting:heroku
-    docker run -p 8080:8080 literature/modnet-matting:heroku
+    docker pull literature/animegan:heroku
+    docker run -p 8080:8080 literature/animegan:heroku
     ```
 
 Now your service has started to run, but it runs on the local port. If you need to realize the external network call, you need to act as an agent to proxy the service to your domain name，
