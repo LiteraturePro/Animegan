@@ -4,7 +4,6 @@ Docker version API for AnimeGANv2
 - Original address of the project[AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2)
 - The project used by this version[Animegan2-Pytorch](https://github.com/bryandlee/animegan2-pytorch)
 
-
 ### Explain
 AnimeGANv2(Look at the picture)
 
