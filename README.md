@@ -6,7 +6,7 @@ The webapp is deployed Divio-Online here - https://animegan.us.aldryn.io/
 
 The webapp is deployed Divio-Test - https://animegan-stage.us.aldryn.io/
 
-The webapp is deployed Aliyun Severless here - 
+The webapp is deployed Heroku here - https://animegan-demo.herokuapp.com/
 
 ---
 
