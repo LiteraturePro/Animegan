@@ -19,6 +19,7 @@ The webapp is deployed Divio-Test - https://animegan-stage.us.aldryn.io/
 
 The webapp is deployed Heroku here - https://animegan-demo.herokuapp.com/
 
+![](https://pcdn.wxiou.cn/20210310092632.png)
 ---
 
 ## What is this?
