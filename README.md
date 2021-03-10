@@ -6,7 +6,7 @@
 
 The webapp is deployed Heroku Web here - https://animegans.herokuapp.com/
 
-![](https://pcdn.wxiou.cn/20210309203225.png)
+![](https://pcdn.wxiou.cn/20210310102126.png)
 
 ---
 
