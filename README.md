@@ -6,6 +6,8 @@
 
 The webapp is deployed Heroku Web here - https://animegans.herokuapp.com/
 
+The webapp is deployed Streamlit Web here - https://share.streamlit.io/literaturepro/animegan
+
 ![](https://pcdn.wxiou.cn/20210310102126.png)
 
 ---
