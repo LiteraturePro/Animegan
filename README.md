@@ -12,6 +12,8 @@ The webapp is deployed Streamlit Web here - https://share.streamlit.io/literatur
 
 ---
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=7765f4d750f0&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 ## Version Api for AnimeGANv2
 > Docker version API for AnimeGANv2!
 
